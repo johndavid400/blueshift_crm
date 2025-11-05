@@ -23,7 +23,7 @@ module BlueshiftCRM
       @site_id       = site_id
       @timeout       = timeout
 
-      raise ArgumentError, "Missing user_api_key (BLUESHIFT_USER_API_KEY or blueshift_api_password)" unless @user_api_key
+      raise ArgumentError, "Missing user_api_key (BLUESHIFT_USER_API_KEY)" unless @user_api_key
       raise ArgumentError, "Missing event_api_key (BLUESHIFT_EVENT_API_KEY or event_api_key)" unless @event_api_key
       raise ArgumentError, "Missing site_id (BLUESHIFT_SITE_ID or site_id)" unless @site_id
 
