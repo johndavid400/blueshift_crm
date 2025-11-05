@@ -3,13 +3,13 @@
 Gem::Specification.new do |spec|
   spec.name          = "blueshift_crm"
   spec.version       = File.read("lib/blueshift_crm/version.rb").match(/VERSION = "(.+)"/)[1]
-  spec.authors       = ["Your Name"]
-  spec.email         = ["you@example.com"]
+  spec.authors       = ["JD Warren"]
+  spec.email         = ["johndavid400@gmail.com"]
 
   spec.summary       = "Ruby client for Blueshift CRM API"
   spec.description   = "A lightweight, Faraday-based Ruby client for Blueshift CRM covering campaigns, events, customers, segments, adapters, and custom user lists."
   spec.license       = "MIT"
-  spec.homepage      = "https://github.com/yourname/blueshift_crm"
+  spec.homepage      = "https://github.com/johndavid400/blueshift_crm"
 
   spec.required_ruby_version = ">= 3.0"
 
