@@ -56,5 +56,5 @@ client.events.history(event: "")
 
 #### Segments:
 ```bash
-client.campaigns.list
+client.segments.list
 ```
